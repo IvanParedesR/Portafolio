@@ -14,13 +14,23 @@ La base con la que contamos es una descripción detallada por municipio para 20 
 
 La APP consta de 3 pestañas
 
-** Mapa de la eduación en México** En esta pantalla podemos observar los valores de diferentes variables para cada municipio y una tabla que permite observar y ordenar los diferentes valores de una variable. El mapa se genera por medio de un archivo shp. Los archivos SHP son una parte crucial del formato de archivo shapefile, que es ampliamente utilizado en el ámbito de los Sistemas de Información Geográfica (SIG). 
+** Mapa de la eduación en México** 
+En esta pantalla podemos observar los valores de diferentes variables para cada municipio y una tabla que permite observar y ordenar los diferentes valores de una variable. El mapa se genera por medio de un archivo shp. Los archivos SHP son una parte crucial del formato de archivo shapefile, que es ampliamente utilizado en el ámbito de los Sistemas de Información Geográfica (SIG). 
 
-** Modelo Lineal** Permite consultar cual seria el numero de años promedio de educación en un municipio de acuerdo con el porcentaje de población indigena que lo habita. El modelo de Mínimos Cuadrados Ordinarios (MCO), también conocido como regresión lineal ordinaria, es un método estadístico utilizado para estimar la relación entre variables. Este método es ampliamente utilizado en estadísticas, economía, ingeniería y ciencias sociales para modelar relaciones lineales entre variables.  
+** Modelo Lineal** 
+Permite consultar cual seria el numero de años promedio de educación en un municipio de acuerdo con el porcentaje de población indigena que lo habita. El modelo de Mínimos Cuadrados Ordinarios (MCO), también conocido como regresión lineal ordinaria, es un método estadístico utilizado para estimar la relación entre variables. Este método es ampliamente utilizado en estadísticas, economía, ingeniería y ciencias sociales para modelar relaciones lineales entre variables.  
 
-** Gráficas de barras ** Permite comparar las variables a nivel estado y de acuerdo al porcentaje de población indigena.
+** Gráficas de barras ** 
+Permite comparar las variables a nivel estado y de acuerdo al porcentaje de población indigena.
 
 ### Despliegue de la aplicación
 
 Para correr esta aplicación sugerimos:
+
+1. Clonar el repositorio
+2. Descargar en un zip todo el contenido del repositorio y guardarlo en una carpeta de su preferencia.
+3. Abrir la Terminal.
+4. Correr el archvio de R.script para generar los datos de inicio.
+5. Correr el archivo "docker-compose up --build"
+6. Ya podra tener acceso a la APP.
 
